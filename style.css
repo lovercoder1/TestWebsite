@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  font-size: 20px;
+  
+}
+ body {
+   background-image: url(https://www.pexels.com/fr-fr/photo/personne-montrant-la-montagne-grise-534164/);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat
+ }
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 550px
+  max-width: 70%;
+  margin: 20% 15%;
+}
+
+section{
+  background-color: #a2b3f5;
+  display: grid;
+  align-content: center;
+  padding: 1.3rem;
+  margin: 1.5rem;
+
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+  background-color: tomato;
+  font-size: 1.4rem;
+  margin: 0.4em;
+}
+
